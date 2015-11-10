@@ -2,7 +2,6 @@
 layout: base
 section-type: index
 ---
-{% include js.html %}
 <div class="wrapper">
     <header>
         {% if site.compass.logo %}
@@ -17,9 +16,11 @@ section-type: index
 
         {% if site.compass.tagline %}
         <div class="tagline-container"><p>{{ site.compass.tagline }}</p>
-                <span class="intro-text">{{ content }}</span>
         </div>
         {% endif %}
+        {% include js.html %}
+        <span class="intro-text">{{ content }}</span>
+        
         
 
     </header>
