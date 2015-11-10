@@ -1,4 +1,4 @@
-{% if site.dynamic-typing %}
+{% if site.dynamic-typing and page.section-type == "index"%}
 
   <!-- Dynamic Typing Start -->
 
@@ -11,27 +11,35 @@
     a.el.val(d):"html"===a.contentType?a.el.html(d):a.el.text(d);c>a.stopNum?(c--,a.backspace(b,c)):c<=a.stopNum&&(a.arrayPos++,a.arrayPos===a.strings.length?(a.arrayPos=0,a.shuffle&&(a.sequence=a.shuffleArray(a.sequence)),a.init()):a.typewrite(a.strings[a.sequence[a.arrayPos]],c))},Math.round(70*Math.random())+this.backSpeed)}},shuffleArray:function(b){var c,a,d=b.length;if(d)for(;--d;)a=Math.floor(Math.random()*(d+1)),c=b[a],b[a]=b[d],b[d]=c;return b},reset:function(){clearInterval(this.timeout);var b=
     this.el.attr("id");this.el.after('<span id="'+b+'"/>');this.el.remove();"undefined"!==typeof this.cursor&&this.cursor.remove();this.options.resetCallback()}};d.fn.typed=function(b){return this.each(function(){var c=d(this),a=c.data("typed"),g="object"==typeof b&&b;a||c.data("typed",a=new f(this,g));if("string"==typeof b)a[b]()})};d.fn.typed.defaults={strings:["These are the default values...","You know what you should do?","Use your own!","Have a great day!"],stringsElement:null,typeSpeed:0,startDelay:0,
     backSpeed:0,shuffle:!1,backDelay:500,loop:!1,loopCount:!1,showCursor:!0,cursorChar:"|",attr:null,contentType:"html",callback:function(){},preStringTyped:function(){},onStringTyped:function(){},resetCallback:function(){}}}(window.jQuery);
+
     var myQuotes =  new Array();
     {% for line in site.lines %}
       myQuotes.push("{{ line.text }}");
     {% endfor %}
+
     function shuffle(array) {
       var currentIndex = array.length, temporaryValue, randomIndex ;
+
       // While there remain elements to shuffle...
       while (0 !== currentIndex) {
+
         // Pick a remaining element...
         randomIndex = Math.floor(Math.random() * currentIndex);
         currentIndex -= 1;
+
         // And swap it with the current element.
         temporaryValue = array[currentIndex];
         array[currentIndex] = array[randomIndex];
         array[randomIndex] = temporaryValue;
       }
+
       return array;
     }
+
     {% if site.shuffle %}
       shuffle(myQuotes)
     {% endif %}
+
       $(".intro-text").typed({
                     strings: myQuotes,
                     typeSpeed: {{ site.type-speed }},
