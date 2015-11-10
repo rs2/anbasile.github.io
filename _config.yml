@@ -1,6 +1,6 @@
 # general configuration
 url: 'http://anbasile.github.io/'
-baseurl: '/anbasile'
+baseurl: ''
 site_name: 'Angelo Basile personal home page'
 
 # compass configuration
