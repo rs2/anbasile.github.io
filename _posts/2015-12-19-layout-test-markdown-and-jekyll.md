@@ -1,10 +1,7 @@
 ---
 layout: post
-title: Using jekyll - another test
+title: Layout test - Markdown and jekyll
 ---
-prova2
-
-
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur orci in enim congue, eu pharetra neque venenatis. Nullam aliquet arcu ut libero rutrum, id gravida mi cursus. In purus urna, venenatis ut luctus ac, vehicula id eros. Nullam congue, sem sed ultrices semper, erat tellus rhoncus purus, ut aliquet ante justo vel lacus. Quisque ac feugiat dolor. Morbi interdum lacinia urna sit amet viverra. Duis viverra felis ac lorem sagittis, quis congue tortor facilisis. Sed pharetra vulputate diam. Donec convallis diam a arcu mollis volutpat. Curabitur ultrices vel mi at facilisis. Phasellus finibus malesuada dui vitae porta. Quisque pellentesque sollicitudin nisl eu feugiat. Morbi non risus justo. Mauris dignissim mi vitae rhoncus consequat. Nunc a velit vitae purus pellentesque mattis. Duis ultrices sapien nec metus scelerisque, eget ultrices metus egestas.
 
