@@ -4,7 +4,7 @@ title: How to deploy Reveal.js presentations on GitHub Pages
 ---
 
 ### Create a [new](https://github.com/new) repository on GitHub
-   Let's call it `reveal_HelloWorld`
+Let's call it `reveal_HelloWorld`
 ### Clone it on your local machine
     git clone git@github.com:yourusername/reveal_HelloWorld.git
 ### Clone reveal.js on your local machine
@@ -16,7 +16,8 @@ title: How to deploy Reveal.js presentations on GitHub Pages
 ### Push
     git push
 ### From the GitHub website repo settings:
-   - Set the 'gh-pages' branch as default
-   - Delete the 'master' branch
+- Set the 'gh-pages' branch as default
+- Delete the 'master' branch
 
-### You are done. The slides are published at yourusername.github.io/reveal_HelloWorld
+### You are done. 
+The slides are published at yourusername.github.io/reveal_HelloWorld
