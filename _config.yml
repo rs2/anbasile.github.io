@@ -1,5 +1,6 @@
 # general configuration
 url: 'http://anbasile.github.io/'
+description: 'My personal hp'
 baseurl: ''
 site_name: 'Angelo Basile personal home page'
 
