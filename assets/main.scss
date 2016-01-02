@@ -41,11 +41,6 @@ a:hover {
 	margin: 0.8em 0;
 }
 
-/* override the left margin added by font awesome for the main content list,
-since it must be aligned with the content */
-.fa-ul.main-list {
-	margin-left: 0;
-}
 
 /* list icons */
 .main-list-item-icon {
@@ -57,17 +52,16 @@ since it must be aligned with the content */
 .logo-container {
 	text-align: center;
 	perspective: 1000;
-	padding: 0 20px;
 }
 /*** flip the pane when hovered ***/
-	.logo-container:hover .flipper, .logo-container.hover .flipper {
-		transform: rotateY(180deg);
-	}
+.logo-container:hover .flipper, .logo-container.hover .flipper {
+	transform: rotateY(180deg);
+}
 	
 .logo-container, .front, .back {
 	width: 96px;
 	height: 96px;
-
+	position: relative;
 }
 
 /* flip speed goes here */
