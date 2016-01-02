@@ -57,6 +57,7 @@ since it must be aligned with the content */
 .logo-container {
 	text-align: center;
 	perspective: 1000;
+	padding: 0 20px;
 }
 /*** flip the pane when hovered ***/
 	.logo-container:hover .flipper, .logo-container.hover .flipper {
