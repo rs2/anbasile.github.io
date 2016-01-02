@@ -52,13 +52,15 @@ a:hover {
 .logo-container {
 	text-align: center;
 	perspective: 1000;
+	position: absolute;
+	right: 0;
 }
 /*** flip the pane when hovered ***/
 .logo-container:hover .flipper, .logo-container.hover .flipper {
 	transform: rotateY(180deg);
 }
 
-.front, .back {
+.logo-container, .front, .back {
 	width: 96px;
 	height: 96px;
 }
