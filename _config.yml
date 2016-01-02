@@ -7,7 +7,8 @@ site_name: 'Angelo Basile personal home page'
 # compass configuration
 compass:
   # an avatar or logo (optional)
-  logo: "/images/compass.png"
+  logo: "/images/logo.png"
+  me: "/images/me.jpg"
   # author will appear under the avatar (optional)
   author: "Angelo Basile"
   # tagline will appear under the title (optional)
