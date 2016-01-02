@@ -1,5 +1,5 @@
-# anbasile
-My personal website.
+# Angelo Basile
+## My personal website.
 
 Forked from [compass](https://github.com/excentris/compass).
 
@@ -14,3 +14,4 @@ Features:
 - carousel
 - blog (in beta)
 - rss feeds
+
