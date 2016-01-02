@@ -5,8 +5,14 @@ layout: base
     <header>
         {% if site.compass.logo %}
         <div class="logo-container">
-          <a class="me" href="{{ page.baseurl }}" style="background-image: url('{{ site.baseurl }}{{ site.compass.me }}')"></a>
-          <a class="logo" href="{{ page.baseurl }}" style="background-image: url('{{ site.baseurl }}{{ site.compass.logo }}')"></a>
+            <div class="flipper">
+		        <div class="front">
+			    <a class="logo" href="{{ page.baseurl }}" style="background-image: url('{{ site.baseurl }}{{ site.compass.logo }}')"></a>
+		        </div>
+		        <div class="back">
+			    <a class="me" href="{{ page.baseurl }}" style="background-image: url('{{ site.baseurl }}{{ site.compass.me }}')"></a>
+		        </div>
+	        </div>
         </div>
         {% endif %}
 
