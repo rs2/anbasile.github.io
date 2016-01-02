@@ -127,6 +127,14 @@ hr {
 	background-image: -ms-linear-gradient(left, rgba(0,0,0,0), $text-color, rgba(0,0,0,0));
 	background-image: -o-linear-gradient(left, rgba(0,0,0,0), $text-color, rgba(0,0,0,0));
 }
+/*** social ***/
+.social {
+	color: #CE534D;
+}
+
+.social a:hover{
+	style:none;
+}
 
 /*** footer ***/
 footer {
