@@ -14,4 +14,5 @@ Features:
 - carousel
 - blog (in beta)
 - rss feeds
+- custom 404 page
 
