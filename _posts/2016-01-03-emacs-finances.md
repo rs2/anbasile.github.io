@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tracking finances with emacs.
+title: Tracking finances with emacs
 ---
 #Tracking finances with emacs. A simple solution.
 
