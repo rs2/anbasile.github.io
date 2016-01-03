@@ -1,4 +1,8 @@
-#Tracking finances with emacs
+---
+layout: post
+title: Tracking finances with emacs.
+---
+#Tracking finances with emacs. A simple solution.
 
 I have a quick and dirty method for tracking my finances in emacs. It has tobe  easy to use otherwise you will give up using it.
 
