@@ -49,47 +49,9 @@ a:hover {
 }
 
 /*** logo-me ***/
+/*** logo ***/
 .logo-container {
 	text-align: center;
-	perspective: 1000;
-	position: relative;
-	left: 0;
-}
-/*** flip the pane when hovered ***/
-.logo-container:hover .flipper, .logo-container.hover .flipper {
-	transform: rotateY(180deg);
-}
-
-.logo-container, .front, .back {
-	width: 96px;
-	height: 96px;
-}
-
-/* flip speed goes here */
-.flipper {
-	transition: 0.6s;
-	transform-style: preserve-3d;
-	position: relative;
-}
-
-/* hide back of pane during swap */
-.front, .back {
-	backface-visibility: hidden;
-	position: absolute;
-	top: 0;
-	right: 0;
-}
-
-/* front pane, placed above back */
-.front {
-	z-index: 2;
-	/* for firefox 31 */
-	transform: rotateY(0deg);
-}
-
-/* back, initially hidden pane */
-.back {
-	transform: rotateY(180deg);
 }
 
 .logo {
@@ -97,11 +59,12 @@ a:hover {
 	height: 96px;
 	display: inline-block;
 	background-size: cover;
-	border-radius: 20%;
+	border-radius: 50%;
 	-moz-border-radius: 50%;
 	border: 2px solid $background-color;
 	box-shadow: 0 0 0 3px $text-color;
 }
+
 
 /*** author ***/
 .author-container h1 {
