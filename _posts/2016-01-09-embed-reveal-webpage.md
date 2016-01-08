@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to embed a Reveal presentation in a web page
+title: How to embed Reveal.js
 ---
 It is very simple:
 
@@ -10,6 +10,7 @@ It is very simple:
     
 
 Put it in a `div` to align it
+
     <div style="text-align:center">
         ...
     </div>
