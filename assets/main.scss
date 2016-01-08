@@ -66,7 +66,7 @@ a:hover {
 }
 
 .logo:hover{
-	border: 2px solid $anchor-text-color;	
+	box-shadow: $anchor-text-color;	
 }
 
 /*** author ***/
