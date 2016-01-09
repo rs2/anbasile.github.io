@@ -64,6 +64,10 @@ a:hover {
 	box-shadow: 0 0 0 3px $text-color;
 }
 
+.logo:hover {
+	box-shadow: 0 0 0 3px $anchor-text-color;
+}
+
 /*** author ***/
 .author-container h1 {
 	font-size: 2.8em;
