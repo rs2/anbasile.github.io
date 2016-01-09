@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tracking finances with emacs
-tag: emacs orgmode tracking
+tags: emacs orgmode tracking
 ---
 I have a quick and dirty method for tracking my finances in emacs. It has tobe  easy to use otherwise you will give up using it.
 
