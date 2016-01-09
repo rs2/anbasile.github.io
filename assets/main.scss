@@ -90,9 +90,12 @@ hr {
 	background-image: -o-linear-gradient(left, rgba(0,0,0,0), $text-color, rgba(0,0,0,0));
 }
 /*** social ***/
+#social i{
+	padding-right: 3px;
+}
+
 #social a{
 	text-decoration:none;
-	padding-right: 3px;
 }
 
 #social a:hover {
