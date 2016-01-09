@@ -48,7 +48,6 @@ a:hover {
 	color: $text-color;
 }
 
-/*** logo-me ***/
 /*** logo ***/
 .logo-container {
 	text-align: center;
@@ -91,7 +90,8 @@ hr {
 }
 /*** social ***/
 #social i{
-	padding-right: 10px;
+	width: 36px;
+	margin: 0.8em 0;
 }
 
 #social a{
