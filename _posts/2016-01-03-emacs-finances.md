@@ -1,11 +1,8 @@
 ---
 layout: post
 title: Tracking finances with emacs
+tag: emacs orgmode tracking
 ---
-<div style="text-align:center">
-<i class="fa fa-usd fa-5x"></i>
-</div>
-
 I have a quick and dirty method for tracking my finances in emacs. It has tobe  easy to use otherwise you will give up using it.
 
 ## Create an org-capture template
