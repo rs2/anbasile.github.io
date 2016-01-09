@@ -2,7 +2,6 @@
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="/slick/slick.min.js"></script>
-<script type="text/javascript" src="/js/jekyll-search.min.js"></script>
 
 <script type="text/javascript">
   $(document).ready(function(){
@@ -61,15 +60,3 @@
   </script>
 
   <!-- Dynamic Typing End  -->
-  
-<script>  
-SimpleJekyllSearch({
-  searchInput: document.getElementById('search-input'),
-  resultsContainer: document.getElementById('results-container'),
-  json: base_url + '/search.json',
-  searchResultTemplate: '<li><a href="{url}" title="{title}">{title}</a></li>',
-  noResultsText: '<li class="no-results">No results found :(</li>',
-  limit: 10,
-  fuzzy: false
-});
-</script>
