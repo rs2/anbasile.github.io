@@ -2,6 +2,7 @@
 layout: post
 title: My dotemacs file.
 tags: emacs configuration
+categories: blog
 ---
 
 This is my simple, small and neat dotemacs file.
