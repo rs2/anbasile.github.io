@@ -7,7 +7,7 @@ categories: blog
 
 This is my simple, small and neat dotemacs file.
 
-```
+```elisp
 ;; Theme & Font
 (load-theme 'tango)
 (set-face-attribute 'default nil :family "Inconsolata" :height 140)
