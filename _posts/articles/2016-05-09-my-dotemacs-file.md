@@ -8,13 +8,13 @@ categories: blog
 This is my simple, small and neat dotemacs file.
 
 ```elisp
-;; Theme & Font
-(load-theme 'tango)
-(set-face-attribute 'default nil :family "Inconsolata" :height 140)
-
 ;; Info
 (setq user-full-name "Angelo Basile")
 (setq user-mail-address "angelobasile@yandex.ru")
+
+;; Theme & Font
+(load-theme 'misterioso)
+(set-face-attribute 'default nil :family "Inconsolata" :height 140)
 
 ;; Packages
 (package-initialize)
@@ -22,22 +22,24 @@ This is my simple, small and neat dotemacs file.
                          ("marmalade" . "https://marmalade-repo.org/packages/")
                          ("melpa" . "https://melpa.org/packages/")))
 
-
 ;; Startup
 (setq inhibit-splash-screen t
       initial-scratch-message nil
       initial-major-mode 'org-mode)
 
 ;; Bars & Line
-;; (require 'powerline)
 (scroll-bar-mode -1)
 (tool-bar-mode -1)
 (menu-bar-mode -1)
+(require 'powerline)
+(powerline-default-theme)
 
 ;; Fringes & lines
 (require 'fringe)
 (fringe-mode 320)
 (global-visual-line-mode 1)
+(when window-system
+  (global-hl-line-mode))
 
 ;; Backups & temporary files
 (setq make-backup-files nil)
@@ -49,6 +51,9 @@ This is my simple, small and neat dotemacs file.
 
 ;; Parenthesis
 (electric-pair-mode 1)
+
+;; Fancy lambdas
+(global-prettify-symbols-mode t)
 
 ;; Smex & Ido
 (setq smex-save-file (expand-file-name ".smex-items" user-emacs-directory))
@@ -67,8 +72,12 @@ This is my simple, small and neat dotemacs file.
 (setq org-capture-templates
       (quote ( ("j" "Journal" entry (file+datetree "~/org/journal.org")
                "* %?\n%U\n"))))
+;; Display preferences
+(add-hook 'org-mode-hook
+          (lambda ()
+            (org-bullets-mode t)))
 
+(setq org-hide-leading-stars t)
 
-
-
+(setq org-ellipsis "⤵")
 ```
