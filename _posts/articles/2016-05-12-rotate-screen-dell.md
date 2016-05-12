@@ -3,6 +3,7 @@ layout: post
 title: Rotate the screen on Dell xps
 tags: dell xps 13 bash script
 categories: blog
+excerpt: "A simple script for the dell xps"
 ---
 
 ```bash
