@@ -65,7 +65,7 @@ owner:
   google:
     plus: #username
     analytics:
-    verify:
+    verify: UA-69921270-1
     ad-client:
     ad-slot:
   bing-verify:
