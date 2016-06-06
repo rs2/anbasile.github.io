@@ -1,71 +1,26 @@
-# Site wide configuration
+# general configuration
+url: http://www.angelobasile.it
+baseurl: ''
 
-title: Angelo Basile
-locale: en_US
-description: My landing page
-logo: site-logo.jpg
-search: true
-url: http://anbasile.github.io
+# compass configuration
+compass:
+  # an avatar or logo (optional)
+  logo: "/images/compass.png"
+  # author will appear under the avatar (optional)
+  author: "Angelo Basile"
+  # tagline will appear under the title (optional)
+  tagline: "The <a href='http://jekyllrb.com'>Jekyll</a> theme for your personal landing page"
+  # if include_content is true, the contents of the content.html include will be
+  # added right above the generated item list, if present
+  include_content: true
+  # if include_analytics is true, the content of the analytics.html include will
+  # be added at the end of the <head> section. You can add your Google Analytics
+  # Tracking Code to that file.
+  include_analytics: false
 
-# Jekyll configuration
-
-permalink:   /:categories/:title/
-markdown:    kramdown
+# Dependencies
+markdown: kramdown
 highlighter: rouge
-sass:
-  sass_dir: _sass
-  style: compressed
-gems:
-  - jekyll-sitemap
-  - jekyll-gist
 
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..2
-  enable_coderay: false
-
-mathjax: true
-
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", ".less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
-
-
-# Octopress
-
-# Default extensions
-post_ext: md
-page_ext: md
-
-# Found in _templates/
-post_layout: post
-page_layout: page
-
-# Format titles with titlecase?
-titlecase: true
-
-
-# Site owner
-owner:
-  name: Angelo Basile
-  avatar: me.jpg
-  email: me@angelobasile.it
-  disqus-shortname:
-  twitter: angelo_basile
-  facebook: #username
-  github: anbasile
-  stackexchange: http://stackoverflow.com/users/4525192/angelo
-  linkedin: #username
-  instagram: #username
-  flickr: #username
-  tumblr: #username
-  pinterest: #username
-  weibo: #userid
-  google:
-    plus: #username
-    analytics:
-    verify: UA-69921270-1
-    ad-client:
-    ad-slot:
-  bing-verify:
+# Permalinks
+permalink: pretty
