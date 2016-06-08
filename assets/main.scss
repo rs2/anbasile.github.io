@@ -61,36 +61,6 @@ since it must be aligned with the content */
   margin: 0;
   padding: 0;
 }
-
-#postlist ul li:before {
- content: "\0BB \020";
-}
-
-.postlist li {
-  font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
-  border-bottom: 1px solid #ccc;
-}
-
-.postlist li:last-child {
-  border: none;
-}
-
-.postlist li a {
-  text-decoration: none;
-  color: #000;
-
-  -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
-  -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
-  -o-transition: font-size 0.3s ease, background-color 0.3s ease;
-  -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
-  transition: font-size 0.3s ease, background-color 0.3s ease;
-  display: block;
-}
-
-.postlist li a:hover {
-  font-size: 30px;
-  background: #f6f6f6;
-}
 /*** logo ***/
 .logo-container {
 	text-align: center;
