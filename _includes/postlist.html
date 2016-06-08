@@ -1,8 +1,8 @@
   <h2 style="text-align: right;">Latest articles</h2>
 
-  <ul id="postlist" style="text-align: right;">
+  <ul id="postlist" style="text-align: center;">
   {% for post in site.posts %}
-    <li class="postlist">
+    <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
