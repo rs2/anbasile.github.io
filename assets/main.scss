@@ -62,6 +62,10 @@ since it must be aligned with the content */
   padding: 0;
 }
 
+#postlist ul li:before {
+ content: "\0BB \020";
+}
+
 .postlist li {
   font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
   border-bottom: 1px solid #ccc;
