@@ -61,12 +61,12 @@ since it must be aligned with the content */
 }
 
 /*** books list ***/
-#bookslist .ul {
+#bookslist, ul {
   list-style-type: none;
   width: 500px;
 }
 
-#bookslist .h3 {
+#bookslist, h3 {
   font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
 }
 /*** logo ***/
