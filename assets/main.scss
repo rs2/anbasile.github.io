@@ -56,22 +56,22 @@ since it must be aligned with the content */
 
 /*** post list ***/
 
-#postlist ul {
+.postlist ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-#postlist li {
+.postlist li {
   font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
   border-bottom: 1px solid #ccc;
 }
 
-#postlist li:last-child {
+.postlist li:last-child {
   border: none;
 }
 
-#postlist li a {
+.postlist li a {
   text-decoration: none;
   color: #000;
 
@@ -83,7 +83,7 @@ since it must be aligned with the content */
   display: block;
 }
 
-#postlist li a:hover {
+.postlist li a:hover {
   font-size: 30px;
   background: #f6f6f6;
 }
