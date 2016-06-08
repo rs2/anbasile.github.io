@@ -55,11 +55,19 @@ since it must be aligned with the content */
 }
 
 /*** post list ***/
+.postlist ul {
+    list-style-type: none;
+    padding: 0;
+    border: 1px solid #ddd;
+}
 
-#postlist ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+.postlist ul li {
+    padding: 8px 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+.postlist ul li:last-child {
+    border-bottom: none
 }
 /*** logo ***/
 .logo-container {
