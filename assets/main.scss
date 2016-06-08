@@ -64,6 +64,8 @@ since it must be aligned with the content */
 #bookslist, ul {
   list-style-type: none;
   width: 500px;
+  position: absolute;
+  right: 0px;
 }
 
 #bookslist, h3 {
