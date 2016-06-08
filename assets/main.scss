@@ -55,17 +55,20 @@ since it must be aligned with the content */
 }
 
 /*** post list ***/
-#postlist{
+#postlist, ul{
     list-style-type: none;
     padding: 0;
+    text-align: right;
+}
+
+#postlist, h2{
+    text-align: right;
 }
 
 /*** books list ***/
 #bookslist, ul {
   list-style-type: none;
   width: 500px;
-  position: relative;
-  right: 0px;
 }
 
 #bookslist, h3 {
