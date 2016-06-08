@@ -54,6 +54,12 @@ since it must be aligned with the content */
 	color: $text-color;
 }
 
+/* post list */
+
+#postlist ul li:before {
+ content: "\0BB \020";
+ }
+
 /*** logo ***/
 .logo-container {
 	text-align: center;
