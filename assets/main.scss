@@ -58,11 +58,6 @@ since it must be aligned with the content */
 #postlist, ul{
     list-style-type: none;
     padding: 0;
-    text-align: right;
-}
-
-#postlist, h2{
-    text-align: right;
 }
 
 /*** books list ***/
@@ -90,7 +85,6 @@ since it must be aligned with the content */
 }
 
 #bookslist, li:hover {
-  background: #eee;
   cursor: pointer;
 }
 /*** logo ***/
