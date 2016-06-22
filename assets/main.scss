@@ -55,37 +55,9 @@ since it must be aligned with the content */
 }
 
 /*** post list ***/
-#postlist, ul{
+.postlist ul {
     list-style-type: none;
     padding: 0;
-}
-
-/*** books list ***/
-#bookslist, ul {
-  list-style-type: none;
-  width: 480px;
-}
-
-#bookslist, h3 {
-  font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
-}
-
-#bookslist, li img {
-  float: left;
-  margin: 0 15px 0 0;
-}
-
-#bookslist, li p {
-  font: 200 12px/1.5 Georgia, Times New Roman, serif;
-}
-
-#bookslist, li {
-  padding: 10px;
-  overflow: auto;
-}
-
-#bookslist, li:hover {
-  cursor: pointer;
 }
 /*** logo ***/
 .logo-container {
