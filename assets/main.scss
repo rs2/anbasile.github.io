@@ -54,6 +54,32 @@ since it must be aligned with the content */
 	color: $text-color;
 }
 
+/*** social ***/
+#social, ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#social, li {
+    float: left;
+}
+
+#social, li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+#social, li a:hover {
+    background-color: #111;
+}
+
 /*** post list ***/
 #postlist, ul{
     list-style-type: none;
