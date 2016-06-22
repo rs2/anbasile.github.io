@@ -73,6 +73,10 @@ since it must be aligned with the content */
     text-decoration: none;
 }
 
+#social, li a:hover {
+	color:#CE534D;
+}
+
 /*** post list ***/
 #postlist, ul{
     list-style-type: none;
