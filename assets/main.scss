@@ -55,6 +55,10 @@ since it must be aligned with the content */
 }
 
 /*** social ***/
+#social, div {
+	text-align:center;
+}
+
 #social, ul {
     list-style-type: none;
     margin: 0;
