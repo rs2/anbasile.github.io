@@ -54,33 +54,6 @@ since it must be aligned with the content */
 	color: $text-color;
 }
 
-/*** social ***/
-#social, div {
-	text-align:center;
-}
-
-#social, ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-#social, li {
-    float: left;
-}
-
-#social, li a {
-    display: block;
-    text-align: center;
-    padding: 4px 6px;
-    text-decoration: none;
-}
-
-#social, li a:hover {
-	color:#CE534D;
-}
-
 /*** post list ***/
 #postlist, ul{
     list-style-type: none;
