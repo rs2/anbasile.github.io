@@ -3,8 +3,7 @@ layout: page
 title: blog
 permalink: /blog/
 ---
-
-
+<div class="row">
  <ul style="list-style-type:none">
  {% for post in site.posts %}
   <li class="postlist">
@@ -12,5 +11,6 @@ permalink: /blog/
   </li>
  {% endfor %}
  </ul>
+</div>
 
 
