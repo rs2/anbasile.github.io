@@ -35,7 +35,7 @@
 	    <ul style="list-style-type:none">		
 	      {% for post in site.posts limit:3%}
 	      <li>
-		<a href="{{ post.url }}">{{ post.date | date: '%B %d, %Y' }} ~ {{ post.title }}</a>
+		<a href="{{ post.url }}"><span style="text-align:right">{{ post.date | date: '%B %d, %Y' }}</span> ~ {{ post.title }}</a>
 	      </li>
 	      {% endfor %}
 	    </ul>
