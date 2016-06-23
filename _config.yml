@@ -1,6 +1,6 @@
 # general configuration
 url: http://www.angelobasile.it
-baseurl: 'http://www.angelobasile.it'
+baseurl: 'http://anbasile.github.io'
 
 # compass configuration
 compass:
