@@ -1,17 +1,8 @@
 ---
-layout: base
+layout: page
+title: blog
+permalink: /blog/
 ---
-   <main>
-    <div class="container">
-
-      <div class="row">
-	<div class="col-lg-12" style="text-align:center; padding-top: 10%">
-        <header>
-          <img class="animated bounceIn" src="./img/logo.svg" width="96" height="96" alt="logo">
-          <h1>Blog</h1>
-        </header>
-	</div>
-      </div> 
 
       <div class="row marketing" style="font-size: 1.3em;">
         <div class="col-lg-12">
@@ -33,12 +24,3 @@ layout: base
 		
 	    </ul>
 	  </div>  <!-- /row -->
-
-	  <div class="row footer">
-	    <p>back</p>
-	    </div>
-	  
-	</div>  <!-- /col -->
-
-    </div> <!-- /container -->
-   </main>	
