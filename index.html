@@ -1,93 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="The personal home page of Angelo Basile.">
-    <meta name="author" content="Angelo Basile">
-    <link rel="icon" href="./favicon.ico">
-
-    <title>Angelo Basile ~ My personal Home Page</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="./assets/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
-    <link href="./assets/style.css" rel="stylesheet">
-    <!-- fontawesome, fonts and animatejs-->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
-    <link href="http://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet" type="text/css">
-    <link href="http://s.mlcdn.co/animate.css" rel="stylesheet">
-  </head>
-
-  <body>
-
-    <div class="container">
-
-      <div class="jumbotron">
-        <header>
-          <img class="animated bounceIn" src="./img/logo.svg" width="128" height="128" alt="logo">
-          <h1>Angelo Basile</h1>
-          <h3>MSc in Philosophy</h3>
-          <h4><i>University of Trento</i></h4>
-        </header>
+---
+layout: base
+---
+    <main>
+      {% if site.compass.include_content %}
+      <div class="content">
+        {% include content.html %}
       </div>
+      {% endif %}
+    </main>
 
-      <div class="row marketing" style="font-size: 1.3em;">
-        <div class="col-lg-12">
-          <div class="row">
-            <h3>super short cv</h3>
-            <div class="col-lg-3">
-              <p>I got a <b>master degree</b> in philosophy with a focus on digital humanities and NLProc.</p>
-            </div>
-
-            <div class="col-lg-3">
-              <p>I regularly code in <b>haskell</b> and sometimes in <b>python</b>. I am an emacs enthusiast (on arch linux).</p>
-            </div>
-            <div class="col-lg-3">
-              <p><b>I speak</b> italian, english, german, french, albanian, russian and chinese. In descending order.</p>
-            </div>
-            <div class="col-lg-3">
-              <p>Follow me on twitter. Drop me an email to get the <b>full cv</b>.</p>
-            </div>
-
-          </div>
-
-
-          <!-- <div class="row"> -->
-          <!--   <h3>articles</h3> -->
-          <!--   <p><a href=""> >> Maecenas sed diam eget risus varius blandit sit amet non magna.</a></p> -->
-          <!--   <p><a href=""> >> Maecenas sed diam eget risus varius blandit sit amet non magna.</a></p> -->
-          <!--   <p><a href=""> >> Maecenas sed diam eget risus varius blandit sit amet non magna.</a></p> -->
-          <!-- </div> -->
-
-          <div class="row" style="text-align:center; padding-top: 10%">
-            <aside>
-            <div class="col-sm-4">
-              <a href="https://twitter.com/angelo_basile">
-              <i class="social fa fa-twitter fa-2x"></i></a>
-            </div>
-            <div class="col-sm-4">
-              <a href="mailto:angelobasile@yandex.ru">
-              <i class="social fa fa-envelope fa-2x"></i></a>
-            </div>
-            <div class="col-sm-4">
-              <a href="https://github.com/anbasile">
-              <i class="social fa fa-github fa-2x"></i></a>
-            </div>
-            <!-- <div class="col-sm-3"> -->
-            <!--   <a href=""> -->
-            <!--   <i class="social fa fa-rss fa-2x"></i></a> -->
-            <!-- </div> -->
-            </aside>
-          </div>
-
-        </div>
-
-      </div>
-
-    </div> <!-- /container -->
-
-  </body>
-</html>
