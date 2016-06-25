@@ -1,5 +1,5 @@
 # general configuration
-url: http://www.angelobasile.it
+url: 'http://anbasile.github.io'
 baseurl: 'http://anbasile.github.io'
 email: 'angelobasile@yandex.ru'
 # compass configuration
