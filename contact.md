@@ -24,6 +24,7 @@ permalink: /contact/
 	    </div>
 	</div>
 	
+	<hr>
 	 <div class="col-lg-6 col-lg-offest-1">
           <input type="submit" value="Send" class="btn btn-default btn-md">
          </div>
