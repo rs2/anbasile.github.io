@@ -19,7 +19,7 @@ permalink: /contact/
     <textarea class="form-control" id="message" placeholder="Your message" name="message"></textarea>
   </div>
 
-  <button type="submit" class="btn btn-default">Send</button>
+  <button type="submit" class="btn btn-default btn-large">Send</button>
 </form>
 </div>
 
