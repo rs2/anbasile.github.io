@@ -1,7 +1,7 @@
 # general configuration
 url: http://www.angelobasile.it
 baseurl: 'http://anbasile.github.io'
-
+email: 'angelobasile@yandex.ru'
 # compass configuration
 compass:
   # an avatar or logo (optional)
