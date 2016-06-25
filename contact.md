@@ -23,11 +23,10 @@ permalink: /contact/
 		<textarea class="form-control" id="message" name="message" placeholder="Your message"></textarea>
 	    </div>
 	</div>
-	<div class="form-group">
+	
 	 <div class="col-lg-6 col-lg-offest-1">
-         <input type="submit" value="Send" class="btn btn-primary btn-md">
+          <input type="submit" value="Send" class="btn btn-default btn-md">
          </div>
-	</div>
     </form>
 </div>
 
