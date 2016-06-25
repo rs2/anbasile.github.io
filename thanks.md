@@ -1,9 +1,9 @@
 ---
 layout: page
 permalink: /thanks/
-title: Thanks. Your message has been sent
+title: Thanks
 ---
 
-<div class="row>
-<p>Thanks. Your message has been sent</p>
+<div class="row">
+<p style="text-align:center">Your message has been sent</p>
 </div>
