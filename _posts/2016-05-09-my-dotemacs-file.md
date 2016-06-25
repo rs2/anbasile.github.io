@@ -4,9 +4,9 @@ title: My dotemacs file.
 tags: emacs configuration
 ---
 
-This is my simple, small and neat dotemacs file.
+Here you go. Small and neat. It takes onyl 2.5 seconds to boot.
 
-```
+```common_lisp
 ;; Theme & Font
 (load-theme 'tango)
 (set-face-attribute 'default nil :family "Inconsolata" :height 140)
