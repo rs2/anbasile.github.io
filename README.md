@@ -1,5 +1,3 @@
 # Home page src
 
-Happy user of compass theme.
-
-
+src of angelobasile.it
