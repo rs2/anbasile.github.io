@@ -6,7 +6,7 @@ permalink: /contact/
 
 <div class="row">
 <form action="https://formspree.io/{{ site.email }}" method="POST">
-	<input type="hidden" name="_next" value="{{ site.baseurl}}/thanks/" />
+	<input type="hidden" name="_next" value="{{ site.url}}/thanks/" />
 	<input type="hidden" name="_subject" value="Website contact" />
 	<input type="text" name="_gotcha" style="display:none" />
   <div class="form-group">
