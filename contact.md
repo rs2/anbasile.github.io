@@ -25,7 +25,7 @@ permalink: /contact/
 	</div>
 	
 	<div class="form-group">
-	 	<button type="submit" class="btn btn-default">Send</button>
+	 <input class="btn btn-default" type="submit" value="Send">
 	</div>
 	
     </form>
