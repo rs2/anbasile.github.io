@@ -10,7 +10,7 @@ permalink: /contact/
 	<input type="hidden" name="_subject" value="Website contact" />
 	<input type="text" name="_gotcha" style="display:none" />
 
-	<div class="form-group" style="width: 100%">
+	<div class="form-group">
 	    <div class="col-md-12 text-center">
 		<label for="inputEmail">Email</label>
 		<input id="#inputEmail" type="email" name="_replyto" placeholder="Your email">
