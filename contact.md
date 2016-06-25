@@ -13,14 +13,14 @@ permalink: /contact/
 	<div class="form-group">
 	    <div class="col-md-12 text-center">
 		<label for="inputEmail">Email</label>
-		<input id="#inputEmail" type="email" name="_replyto" placeholder="Your email">
+		<input class="form-control" id="#inputEmail" type="email" name="_replyto" placeholder="Your email">
 	    </div>
 	</div>
 	
 	<div class="form-group">
 	    <div class="col-md-12 text-center">
 		<label for="message">Message</label>
-		<textarea id="message" name="message" placeholder="Your message"></textarea>
+		<textarea class="form-control" id="message" name="message" placeholder="Your message"></textarea>
 	    </div>
 	</div>
 	<div class="form-group">
