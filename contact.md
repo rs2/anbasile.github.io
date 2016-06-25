@@ -12,7 +12,7 @@ permalink: /contact/
 
 	<div class="form-group">
 	    <div class="col-md-12">
-		<label for="inputEmail">Email</label>
+		<label class="control-label" for="inputEmail">Email</label>
 		<input class="form-control" id="#inputEmail" type="email" name="_replyto" placeholder="Your email">
 	    </div>
 	</div>
