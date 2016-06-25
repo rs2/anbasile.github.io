@@ -35,7 +35,12 @@ permalink: /contact/
 <form>
   <div class="form-group">
     <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Your email">
+  </div>
+  
+    <div class="form-group">
+    <label for="message">Email address</label>
+    <textarea class="form-control" id="message" placeholder="Your message"></textarea>
   </div>
 
   <button type="submit" class="btn btn-default">Submit</button>
