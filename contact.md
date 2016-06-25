@@ -24,7 +24,9 @@ permalink: /contact/
 	    </div>
 	</div>
 	<div class="form-group">
-         <input type="submit" value="Send" class="btn btn-primary btn-md btn-block">
+	 <div class="col-lg-6 col-lg-offest-1">
+         <input type="submit" value="Send" class="btn btn-primary btn-md">
+         </div>
 	</div>
     </form>
 </div>
