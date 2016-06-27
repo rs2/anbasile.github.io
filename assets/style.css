@@ -17,7 +17,7 @@ a:link, a:visited, a:hover, a:active { color: #d3741c; text-decoration: none; }
 a:hover {color: #8E4423; text-decoration: underline;}
 
 li.postlist:before {
-    content: ">>"; /* Insert content that looks like bullets */
+    content: \00BB \0020";"; /* Insert content that looks like bullets */
     padding-right: 8px;
 }
 
