@@ -6,6 +6,10 @@ tags: emacs configuration
 
 Here you go. Small and neat. It takes onyl 2.5 seconds to boot.
 
+<button data-toggle="collapse" data-target="#emacsinit">See</button>
+
+<div id="emacsinit" class="collapse">
+
 ```common_lisp
 ;; Theme & Font
 (load-theme 'tango)
@@ -66,8 +70,5 @@ Here you go. Small and neat. It takes onyl 2.5 seconds to boot.
 (setq org-capture-templates
       (quote ( ("j" "Journal" entry (file+datetree "~/org/journal.org")
                "* %?\n%U\n"))))
-
-
-
-
 ```
+</div>
