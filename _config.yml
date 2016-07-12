@@ -31,3 +31,4 @@ permalink: pretty
 gems:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-time-to-read
