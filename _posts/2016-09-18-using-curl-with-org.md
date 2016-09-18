@@ -5,6 +5,6 @@ tags: emacs orgmode curl screecast
 ---
 Org mode and babel can come in handy while doing test with web services. I use them regularly to do various tests and operations with my Telegram bots.
 
-![Screencast of curl with org mode]](<https://vimeo.com/183193217> "Curl wit org mode")
+\\![Screencast of curl with org mode]](<https://vimeo.com/183193217> "Curl wit org mode")
 
 You liked it? Share it on twitter and stay tuned. A post with the instructions is on the way.
