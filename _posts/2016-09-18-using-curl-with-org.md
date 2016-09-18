@@ -1,5 +1,7 @@
 ---
 layout: post
+title: Using curl with org mode
+tags: emacs orgmode curl screecast
 ---
 Org mode and babel can come in handy while doing test with web services. I use them regularly to do various tests and operations with my Telegram bots.
 
